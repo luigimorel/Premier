@@ -1,0 +1,91 @@
+/*
+Theme Name: Premier World
+Description: Tour & Travel Agency 
+Version: 1.0.1
+Author: Sobbayi Interactive
+Author URI: https://sobbayi.com/
+Theme URI: https://sobbayi.com/ 
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: premier-world
+*/
+
+body.logged-in.admin-bar #header {
+  margin-top: 32px;
+}
+
+@media screen and (max-width: 782px) {
+  body.logged-in.admin-bar #header {
+    margin-top: 46px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .contact-form input[type="email"],
+  .contact-form input[type="tel"],
+  .contact-form input[type="text"],
+  .contact-form input[type="url"] {
+    width: 100% !important;
+  }
+}
+
+.deals-packs .card-title a {
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.deals-packs .card-title a:hover {
+  text-decoration: none;
+}
+
+.deals-packs .card-text {
+  text-transform: uppercase;
+  font-size: 0.78rem;
+}
+.deals-packs .card-text span {
+  font-size: 90%;
+  font-weight: 400;
+}
+
+.deal-img {
+  margin-bottom: 30px;
+}
+
+.deal-content h3 {
+  text-transform: capitalize;
+}
+
+.deal-content {
+  color: #333;
+}
+
+.summary-left {
+  float: left;
+  margin-right: 5px;
+  color: #ca0000;
+}
+.summary-item {
+}
+.summary-item small {
+  font-size: 70%;
+  font-weight: bold;
+}
+.summary-item p {
+  font-size: 80%;
+}
+.overview-block {
+  background-color: #efefef;
+  margin-bottom: 30px;
+}
+.overview-row {
+  padding: 10px 0 10px 10px;
+}
+
+.overview-block h4 {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
